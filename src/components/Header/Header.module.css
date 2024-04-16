@@ -14,13 +14,33 @@
     font-weight: bold;
 }
 
+.header h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
 .header a {
     text-decoration: none;
-    color: var(--white);
+    color: #666;
     padding-right: 1.5rem;
     font-size: 1.125rem;
 }
 
 .header a:hover {
-    color: var(--red);
+    color: #000;
+}
+.header a.active {
+    color: #000;
+    font-weight: bold;
 }

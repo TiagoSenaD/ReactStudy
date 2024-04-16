@@ -4,8 +4,8 @@ import { Editor } from "primereact/editor";
 const Contact = () => {
     const [text, setText] = useState('');
     return (
-        <div className="card">
-            <Editor value={text} onTextChange={(e) => setText(e.htmlValue)} style={{ height: '320px' }} />
+        <div>
+            <Editor value={text} onTextChange={(e) => setText(e.htmlValue)} style={{ height: '600px' } } />
         </div>
     )
 };

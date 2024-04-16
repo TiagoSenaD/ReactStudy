@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from "./pages/home.jsx"
 import Contact from './pages/Contact.jsx'
 import ErroPage from "./pages/ErrorPage.jsx"
-// import MyRouter from './Router.jsx';
+//import MyRouter from './Router.jsx';
 
 
 //layouts

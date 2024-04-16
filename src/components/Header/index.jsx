@@ -1,9 +1,11 @@
 import styles from './Header.module.css';
+import Navibar from '../Nav/Navibar';
 
 const Header = () => {
     return (
         <header className={styles.header}>
-            <span>Teste</span>
+            <h2>Titulo</h2>
+            <Navibar />
         </header>
     );
 };

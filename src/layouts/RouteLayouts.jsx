@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom";
-import Header from "../components/Header/index";
 
+//componentes
+import Header from "../components/Header/index";
+import Footer from "../components/Footer/Footer";
 
 export default function RootLayouts() {
   return (
@@ -9,6 +11,7 @@ export default function RootLayouts() {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </div>
 
   );
