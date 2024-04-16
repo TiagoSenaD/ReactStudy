@@ -21,3 +21,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-color: #4a63c5;
+}
