@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
 import { Calendar } from 'primereact/calendar';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [date, setDate] = useState(null);
@@ -21,7 +22,9 @@ const Home = () => {
                     <Calendar value={date} onChange={(e) => setDate(e.value)} dateFormat="dd/mm/yy" />
                 </div>
                 <div className='p-d-flex p-jc-center'>
-                    <Button label="click" />
+                    <Link to="/contact">
+                        <Button label="click" />
+                    </Link>
                     <Button label="cancel" />
                 </div>
             </form>

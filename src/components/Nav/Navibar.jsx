@@ -4,7 +4,7 @@ const Navibar = () => {
     return (
         <nav>
             <Link to="/">Home</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/formulario">Contact</Link>
         </nav>
     );
 }

@@ -29,3 +29,19 @@
   height: 75vh;
   background-color: #4a63c5;
 }
+
+.quill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-color: #4a63c5;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-around;
+}

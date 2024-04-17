@@ -1,7 +1,7 @@
 // routes.js
 import { createBrowserRouter } from 'react-router-dom'
-import Home from "./pages/home.jsx"
-import Contact from './pages/Contact.jsx'
+import Home from "./pages/Home.jsx"
+import Formulario from './pages/Formulario.jsx'
 import ErroPage from "./pages/ErrorPage.jsx"
 import Layouts from "./layouts/RouteLayouts.jsx"
 
@@ -12,9 +12,11 @@ const router = createBrowserRouter([
     errorElement: <ErroPage />,
     children: [ 
       { path: '/', element: <Home />},
-      { path: '/contact', element: <Contact /> },
+      { path: '/formulario', element: <Formulario /> },
     ]
   },
 ])
+
+
 
 export default router;
